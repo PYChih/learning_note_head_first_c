@@ -10,5 +10,6 @@ chapter check list
 - [ ] Ch3R
 - [x] Ch4 (12/3)
 - [ ] Ch4R
+- [ ] Arduino Project
 - [ ] Ch5
 - [ ] Ch5R
