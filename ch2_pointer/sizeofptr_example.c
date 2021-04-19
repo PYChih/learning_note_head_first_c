@@ -1,22 +1,23 @@
-/*
- * size of int: 4 bytes
- * size of pointer: 8 bytes (64 bit os)
- * compile with gcc fortune_cookie.c && ./a.out
+/* gcc sizeofptr_example.c && ./a.out
+ * sizeof int: 4 bytes
+ * sizeof pointer: 8 bytes (64 bit os)
+ *
  */
 #include <stdio.h>
 #include <stdlib.h>
 
 void fortune_cookie(char msg[]) {
   printf("Message reads: %s\n", msg);
-  printf("msg occupies %li bytes\n", sizeof(msg));
+  printf("msg occupies %li bytes\n", sizeof(msg));  // notethat will return sizeof(char *)
 }
 
 int main() {
   int i = 0;
   char quote[] = "Cookies make you fat";
   fortune_cookie(quote);
-  printf("size of int %li\n", sizeof(int));
-  printf("size of pointer %li\n", sizeof(&i));
+  printf("size of int %li\n", sizeof(int));  // 4
+  printf("size of pointer %li\n", sizeof(&i));  // 8: because of 64bit
+  printf("int i address %p\n", &i);// 0xXXXX XXXX XXXX XXXX
   printf("size of char %li\n", sizeof(char));
   char c = 'i';
   printf("size of c(char) %li\n", sizeof(c));
