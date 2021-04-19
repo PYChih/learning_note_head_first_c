@@ -1,5 +1,5 @@
 /*
- * compile with gcc cards.c && ./a.out
+ * gcc hello_world.c && ./a.out
  */
 #include <stdio.h>
 #include <stdlib.h>

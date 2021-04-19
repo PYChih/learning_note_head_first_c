@@ -1,5 +1,5 @@
 /*
- * gcc card_counter.c && ./a.out
+ * gcc switch_example.c && ./a.out
  */
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,7 +23,7 @@ int main() {
       continue;
     default:
       val = atoi(card_name);
-      if ((val < 1) || (val > 10)) {
+      if ((val <= 1) || (val > 10)) {
         puts("I don't understand that value!");
         continue;
       }
