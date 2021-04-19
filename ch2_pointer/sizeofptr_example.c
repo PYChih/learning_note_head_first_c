@@ -17,7 +17,7 @@ int main() {
   fortune_cookie(quote);
   printf("size of int %li\n", sizeof(int));  // 4
   printf("size of pointer %li\n", sizeof(&i));  // 8: because of 64bit
-  printf("int i address %p\n", &i);// 0xXXXX XXXX XXXX XXXX
+  printf("int i address %p\n", &i);// 0xXXXX XXXX XXXX 
   printf("size of char %li\n", sizeof(char));
   char c = 'i';
   printf("size of c(char) %li\n", sizeof(c));
