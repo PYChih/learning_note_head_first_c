@@ -5,14 +5,17 @@
 #include <stdio.h>
 #include <string.h>
 
+void swap(char *str1, char*str2) {
+  char temp = *str1;
+  *str1 = *str2;
+  *str2 = temp;
+}
+
 void string_reverse(char* str_og, size_t sz) {
-  // printf("sizeof string %li\n", sizeof(str_og));  // sizeof not work in function
-  char temp;
+  // sz does not include \0
   size_t beg = 0, rbeg = sz - 1;
   while (beg < rbeg) {
-    temp = *(str_og + beg);
-    *(str_og + beg) = *(str_og + rbeg);
-    *(str_og + rbeg) = temp;
+    swap(str_og + beg, str_og + rbeg);
     beg++;
     rbeg--;
   }
