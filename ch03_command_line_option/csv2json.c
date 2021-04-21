@@ -1,5 +1,6 @@
 /* gcc csv2json.c && ./a.out
  * gcc csv2json.c && ./a.out < ../data/gpsdata.csv > ouotput.json
+ * use redirection
  */
 #include <stdio.h>
 
