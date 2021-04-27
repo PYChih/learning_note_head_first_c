@@ -1,4 +1,4 @@
-/*
+/* gcc sizeof_limits.c && ./a.out
  *
  */
 
