@@ -1,5 +1,8 @@
 /* gcc getoptint.c && ./a.out -a -e
- *
+ * keyward:
+ *  getopt: detect -flag
+ *  optarg: char* get -d e
+ *  optind: numbers of flag
  */
 
 #include <stdio.h>
@@ -13,9 +16,13 @@ int main(int argc, char *argv[]) {
   char ch;
 
   while ((ch = getopt(argc, argv, "d:t")) != EOF) {
+    count += 1;
+    printf("count in while %i\n", count);
     switch (ch) {
       case 'd':
         delivery = optarg;
+        printf("ch == %c\n", ch);
+        printf("char* optarg == %s\n", optarg);
         break;
       case 't':
         thick = 1;
