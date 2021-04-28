@@ -23,6 +23,7 @@ int main(int argc, char *argv[]) {
     pid_t pid = fork();
     if (pid == -1) {
       fprintf(stderr, "Can't fork process: %s\n", strerror(errno));
+      return 1;
     }
     if (!pid) {
       printf("i'm child %i\n", i);
