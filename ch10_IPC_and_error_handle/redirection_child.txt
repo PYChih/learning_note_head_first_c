@@ -1,0 +1,4 @@
+number of argc 2
+0 : child
+1 : waitpid
+getenv envparam

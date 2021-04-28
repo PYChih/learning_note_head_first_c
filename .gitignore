@@ -3,4 +3,4 @@
 *.a
 ch08_static_and_shared/cal/elliptical
 ch09_system_call_and_process/example
-ch10_IPC/child
+ch10_IPC_and_error_handle/child
