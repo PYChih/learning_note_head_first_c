@@ -1,0 +1,96 @@
+# README
+###### tags: `HFC`
+- [x] ch1_intro
+    - [x] basic gcc
+    - [x] basic type
+    - [x] basic operator
+    - [x] basic key word
+    - [x] io
+- [x] ch2_pointer
+    - [x] callbyptr
+    - [x] char array vs ptr
+        - string literal in const
+    - [x] fgets and scanf
+- [x] ch2_5_string
+    - [x] text_search
+    - [x] strrev
+    - [ ] array of ptr and array of array
+    - implement:
+        - [ ] strcmp
+        - [ ] strstr
+        - [ ] strchr
+        - [ ] strcpy
+        - [ ] strlen
+        - [ ] strcat
+- [x] ch3_cmd_options
+    - [x] redirection
+    - [x] pipline
+    - [x] `FILE *in = fopen(...)`
+    - [x] argc and argv
+    - [x] getopt optind optarg unistd.h
+- [x] ch4_makefiles
+    - [x] sizeof and datatype
+    - [x] splitting_code and header
+    - [x] extern
+    - [x] makefiles
+- [x] ch5_struct_union_and_bitfield
+    - [x] struct and typedef
+    - [x] union
+    - [x] enum
+    - [x] bitfield
+- [x] ch6_datastructure_dynamic_memory
+    - [x] linkedlist
+    - [x] valgrind
+    - implement:
+        - [ ] linkedlist
+        - [ ] binarytree
+- [ ] ch7_function_ptr
+    - [x] func_ptr
+    - [x] qsort function and comparator
+    - [x] array of function pointer
+    - [x] variadic function
+    - implement:
+        - [ ] inserition
+        - [ ] bubble
+        - [ ] selection
+        - [ ] quick
+        - [ ] heap
+        - [ ] merge
+- [x] ch8_static_and_shared
+    - [x] `""`and`<>`
+    - [x] `-I`、`-L`、`-l`
+    - [x] `ar`;`-rcs`、`-t`、`-x`->.a
+    - [x] `gcc -fPIC`、`-shared`->.so
+    - [x] LD_LIBRARY_PATH
+    - [ ] google test
+- [x] ch9_system_call_and_process
+    - [x] system
+    - [x] exec
+    - [x] errno and strerror
+    - [x] fork and PID
+- [x] ch10_IPC_and_error_handle
+    - [x] fileno and dup2
+    - [x] error and exit
+    - [x] sys/wait.h and waitpid
+    - [x] pipe()
+        - [ ] named pipe(): `mkfifo`
+    - [x] kill, sigaction and alarm
+    - [ ] shared memory
+- [x] ch11_socket
+    - [x] server to client
+        - socket, bind, listen, accept, begin
+        - recv and send
+    - [x] fork for multiple user
+    - [x] client connect
+    - [x] getaddrinfo 
+- [x] ch12_thread
+    - [x] (pthread_t, pthread_create, pthread_join)
+    - [x] thread param
+    - [x] mutex(lock)
+        - pthread_mutex_t
+        - lock
+        - unlock
+    - [ ] deadlock
+- [ ] Arduino_project
+- [ ] Opencv_project
+- [ ] Game_project
