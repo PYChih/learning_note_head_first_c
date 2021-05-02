@@ -1,4 +1,4 @@
-/* gcc southeast.c && ./a.out
+/* gcc callbyptr_example.c && ./a.out
  *
  */
 #include <stdio.h>
