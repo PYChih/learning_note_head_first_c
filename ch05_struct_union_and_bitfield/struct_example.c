@@ -1,8 +1,12 @@
+/* gcc struct_example.c && ./a.out
+ *
+ */
+
 #include <stdlib.h>
 #include <stdio.h>
 
 struct preferences {
-  const char *food;// 6 zero after .
+  const char *food;
   float exercise_hours;
 };
 
@@ -32,7 +36,7 @@ void happy_birthday_ptr(turtle *t) {
 
 
 void catalog(struct fish f) {
-  printf("%s is a %s with %i teeth. He is %i\n",
+  printf("%s is a %s with %i teeth. He is %i years old\n",
         f.name, f.species, f.teeth, f.age);
 }
 

@@ -1,3 +1,7 @@
+/* gcc bitfield_example.c && ./a.out
+ *
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
