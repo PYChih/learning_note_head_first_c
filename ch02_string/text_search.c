@@ -21,21 +21,6 @@ void find_track(char search_for[]) {
   }
 }
 
-int mystrlen(char str[]) {
-  int i = 0;
-  // char c;
-  // c = *(str + i);
-  // while (c != '\0') {
-  //   i++;
-  //   c = *(str + i);
-  // }
-  while (*str != '\0') {
-    i++;
-    str++;
-  }
-  return i;
-}
-
 int main() {
   char search_for[80];
   printf("Search for: ");
