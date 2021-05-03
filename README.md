@@ -1,20 +1,17 @@
 # README
 ###### tags: `HFC`
-- [x] ch1_intro
-    - [x] basic gcc
-    - [x] basic type
-    - [x] basic operator
-    - [x] basic key word
-    - [x] io
-- [x] ch2_pointer
+- [x] ch01_intro
+    - [x] hello_world
+    - [x] puts_printf_scanf
+    - [x] c_array
+- [x] ch02_ptr
     - [x] callbyptr
-    - [x] char array vs ptr
+    - [x] arr_vs_ptr
         - string literal in const
-    - [x] fgets and scanf
-- [x] ch2_5_string
+    - [x] fgets_scanf
+- [x] ch02-5_string
     - [x] text_search
     - [x] strrev
-    - [ ] array of ptr and array of array
     - implement:
         - [ ] strcmp
         - [ ] strstr
@@ -22,33 +19,34 @@
         - [ ] strcpy
         - [ ] strlen
         - [ ] strcat
-- [x] ch3_cmd_options
+- [x] ch03_cmd_options
     - [x] redirection
     - [x] pipline
     - [x] `FILE *in = fopen(...)`
-    - [x] argc and argv
-    - [x] getopt optind optarg unistd.h
-- [x] ch4_makefiles
-    - [x] sizeof and datatype
-    - [x] splitting_code and header
+    - [x] argc_argv
+    - [x] getopt_optind_optarg_unistd_h_
+- [x] ch04_splitting_code
+    - [x] datatype
+    - [x] header
     - [x] extern
-    - [x] makefiles
-- [x] ch5_struct_union_and_bitfield
-    - [x] struct and typedef
+    - [x] makefile
+- [x] ch05_struct_union_and_bitfield
+    - [x] struct_typedef
     - [x] union
     - [x] enum
     - [x] bitfield
-- [x] ch6_datastructure_dynamic_memory
-    - [x] linkedlist
+- [x] ch06_dynamic_memory
+    - [x] malloc_free
+    - [x] linked_list
     - [x] valgrind
     - implement:
         - [ ] linkedlist
         - [ ] binarytree
-- [ ] ch7_function_ptr
+- [x] ch07_function_ptr
     - [x] func_ptr
-    - [x] qsort function and comparator
-    - [x] array of function pointer
-    - [x] variadic function
+    - [x] qsort
+    - [x] arr_func_ptr
+    - [x] variadic_function
     - implement:
         - [ ] inserition
         - [ ] bubble
@@ -56,41 +54,37 @@
         - [ ] quick
         - [ ] heap
         - [ ] merge
-- [x] ch8_static_and_shared
+- [x] ch08_static_and_shared
     - [x] `""`and`<>`
     - [x] `-I`、`-L`、`-l`
     - [x] `ar`;`-rcs`、`-t`、`-x`->.a
     - [x] `gcc -fPIC`、`-shared`->.so
     - [x] LD_LIBRARY_PATH
-    - [ ] google test
-- [x] ch9_system_call_and_process
+- [x] ch09_system_and_process
     - [x] system
     - [x] exec
     - [x] errno and strerror
     - [x] fork and PID
-- [x] ch10_IPC_and_error_handle
-    - [x] fileno and dup2
-    - [x] error and exit
-    - [x] sys/wait.h and waitpid
-    - [x] pipe()
-        - [ ] named pipe(): `mkfifo`
-    - [x] kill, sigaction and alarm
-    - [ ] shared memory
+- [x] ch10_IPC_and_error
+    - [x] fileno_dup2
+    - [x] error_exit
+    - [x] waitpid_wait_h_
+    - [x] pipe
+        - [ ] named_pipe(): `mkfifo`
+    - [x] sigaction_alarm
+    - [ ] shared_memory
 - [x] ch11_socket
     - [x] server to client
-        - socket, bind, listen, accept, begin
-        - recv and send
-    - [x] fork for multiple user
-    - [x] client connect
+        - socket_bind_listen_accept
+        - recv_send
+    - [x] fork_for_client
+    - [x] web_client
     - [x] getaddrinfo 
 - [x] ch12_thread
-    - [x] (pthread_t, pthread_create, pthread_join)
-    - [x] thread param
-    - [x] mutex(lock)
+    - [x] pthread_t_pthread_create_pthread_join
+    - [x] pass_param
+    - [x] mutex_and_lock
         - pthread_mutex_t
         - lock
         - unlock
     - [ ] deadlock
-- [ ] Arduino_project
-- [ ] Opencv_project
-- [ ] Game_project
